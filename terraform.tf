@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "eu-west-2"
+    region = "us-west-1"
 }
 
 resource "aws_instance" "demo_instance" {
@@ -8,7 +8,7 @@ resource "aws_instance" "demo_instance" {
     instance_type = "t2.micro"
     
     tags = {
-        Name = "Terraform-Now"
+        Name = "terrafom"
         
           }
 }
